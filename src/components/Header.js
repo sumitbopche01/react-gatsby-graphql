@@ -27,7 +27,7 @@ const Header = () => {
 export default Header;
 
 const Nav = styled.nav`
-  background: lightgray;
+  background: transparent;
   height: 80px;
   display: flex;
   justify-content: space-between;
@@ -38,7 +38,7 @@ const Nav = styled.nav`
 `;
 
 const NavLink = styled(Link)`
-  /* color: #fff; */
+  color: #fff;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -49,7 +49,7 @@ const NavLink = styled(Link)`
 
 const Bars = styled(FaBars)`
   display: none;
-  /* color: #fff; */
+  color: #fff;
 
   @media screen and (max-width: 768px) {
     display: block;
